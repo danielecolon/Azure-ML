@@ -1,5 +1,5 @@
 # Azure ML
-![alt text](AzureMl.avif)
+![alt text](AzureML.avif)
 
 ## Details
 Azure Machine Learning (Azure ML) is a powerful platform for building, training, and deploying machine learning models in the cloud. In this session, we’ll take a practical, beginner‑friendly tour of the core concepts you need to get started. This is a brief overview, designed to help you understand what Azure ML offers and how you can begin using it in your own projects.
