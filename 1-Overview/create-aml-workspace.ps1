@@ -12,7 +12,10 @@ $randomString = -join ((0..9) | Get-Random -Count 4)
 $Project = "azureml-$randomString"
 $Location = "eastus"
 $dateCreated = (Get-Date).ToString("yyyyMMdd")
-$Tags = "env=demo dateCreated=$dateCreated"
+$Tags = @(
+    "env=demo"
+    "dateCreated=$dateCreated"
+)
 $ResourceGroup = "rg-$Project"
 $Workspace = "ws-$Project"
 
