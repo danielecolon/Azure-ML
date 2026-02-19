@@ -1,8 +1,8 @@
-## Install / Update Azure ML Extension (Only need to do this once.  Not harm in doing this more than once.)
+## Install / Update Azure ML Extension (Only need to do this once.  No harm in doing this more than once.)
 az extension add --name ml --yes
 az extension update --name ml
 
-## Register Required Providers (Only need to do this once.  Not harm in doing this more than once.)
+## Register Required Providers (Only need to do this once.  No harm in doing this more than once.)
 az provider register --namespace Microsoft.MachineLearningServices
 az provider register --namespace Microsoft.ContainerRegistry
 az provider register --namespace Microsoft.Storage
