@@ -1,7 +1,7 @@
 # Azure Machine Learning Step 1: Overview
 Learn how to use one of the most powerful tools for working with Azure
 
-![Azure ML 1](1-Overview/ML_1.png)
+![Azure ML 1](ML_1.png)
 
 ## Details
 Azure Machine Learning (Azure ML) is a powerful platform for building, training, and deploying machine learning models in the cloud. In this session, we’ll take a practical, beginner‑friendly tour of the core concepts you need to get started. This is a brief overview, designed to help you understand what Azure ML offers and how you can begin using it in your own projects.
