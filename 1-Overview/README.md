@@ -18,4 +18,4 @@ This session is meant to give you a solid foundation — not to cover every feat
 ### Tags
 Machine Learning<br />
 Cloud Computing<br />
-Microsoft Azure<br 
+Microsoft Azure<br />
