@@ -1,4 +1,4 @@
-# Azure Machine Learning Step 3: Computer & Environments
+# Azure Machine Learning Step 3: Compute & Environments
 Learn how to use one of the most powerful tools for working with Azure
 
 ![Azure ML 2](ML_3.png)
