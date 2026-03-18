@@ -1,0 +1,38 @@
+$schema: https://azuremlschemas.azureedge.net/latest/MLTable.schema.json
+
+# Read data in from comma delimited file using utf8 encoding
+# Remove columns with high cardinality
+
+type: mltable
+
+# Supported paths include:
+# file: ./<file>
+# local: ./<path>
+# blob: wasbs://<container_name>@<account_name>.blob.core.windows.net/<path>
+# Public http(s) server: https://<url>
+# ADLS gen2: abfss://<file_system>@<account_name>.dfs.core.windows.net/<path>/
+# Datastore: azureml://subscriptions/<subid>/resourcegroups/<rg>/workspaces/<ws>/datastores/<datastore_name>/paths/<path>
+
+paths:
+- file: ./data.csv
+
+transformations:
+  - read_delimited:
+      delimiter: ","
+      encoding: utf8            # Supported encoding. utf8, iso88591, latin1, ascii, utf16, utf32, utf8bom, and windows1252
+
+  - filter: col('Country') == 'USA' # Filter data leaving only US  
+  
+  - drop_columns: [ID, VIN]         # High Cardinality Categorical Columns
+  - drop_columns: [DealerNotes] # High percentage of missing values
+  - drop_columns: [Horsepower]  # Redundancy/Highly Correlated Columns. 
+                                # EngineSize & Horsepower.  Generally the bigger the engine the more horsepower.
+                                # We needed to drop one of these columns
+  - drop_columns: [Country]     # Low Variability (Constant Columns)
+  - drop_columns: [RandomCode]  # Irrelevant Columns      
+    
+
+   
+
+
+  

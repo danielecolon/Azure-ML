@@ -1,0 +1,21 @@
+$schema: https://azuremlschemas.azureedge.net/latest/MLTable.schema.json
+
+# Read data in from comma delimited file using utf8 encoding
+
+type: mltable
+
+# Supported paths include:
+# file: ./<file>
+# local: ./<path>
+# blob: wasbs://<container_name>@<account_name>.blob.core.windows.net/<path>
+# Public http(s) server: https://<url>
+# ADLS gen2: abfss://<file_system>@<account_name>.dfs.core.windows.net/<path>/
+# Datastore: azureml://subscriptions/<subid>/resourcegroups/<rg>/workspaces/<ws>/datastores/<datastore_name>/paths/<path>
+
+paths:
+- file: ./data.csv
+
+transformations:
+  - read_delimited:
+      delimiter: ","
+      encoding: utf8
