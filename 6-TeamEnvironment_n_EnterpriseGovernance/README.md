@@ -1,12 +1,12 @@
 # Azure Machine Learning Step 5: ETL & Datasets
 Learn how to use one of the most powerful tools for working with Azure
 
-![Azure ML 5](ML_5.png)
+![Azure ML 6](ML_6.png)
 
 ## Details
-In this fifth session of the Azure Machine Learning series, we’ll shift from individual workflows to team-based development and enterprise-scale operations. As machine learning projects grow, success depends not just on models and data, but on how teams collaborate, manage access, and enforce governance across environments. Azure Machine Learning provides the tools needed to support secure, scalable, and well-governed ML practices across an organization.
+In this sixth session of the Azure Machine Learning series, we’ll shift from individual workflows to team-based development and enterprise-scale operations. As machine learning projects grow, success depends not just on models and data, but on how teams collaborate, manage access, and enforce governance across environments. Azure Machine Learning provides the tools needed to support secure, scalable, and well-governed ML practices across an organization.
 
-This session focuses on the practical aspects of building a team-ready and enterprise-grade ML environment within Azure ML. You’ll learn how to structure workspaces, manage permissions, and implement governance controls that enable collaboration while maintaining security, compliance, and cost visibility. Whether you’re continuing from Step 4 or working in a multi-team environment, this session will help you understand how to operate Azure ML at scale.
+This session focuses on the practical aspects of building a team-ready and enterprise-grade ML environment within Azure ML. You’ll learn how to structure workspaces, manage permissions, and implement governance controls that enable collaboration while maintaining security, compliance, and cost visibility. Whether you’re continuing from Step 5 or working in a multi-team environment, this session will help you understand how to operate Azure ML at scale.
 
 You’ll learn:
 - How team environments fit into the machine learning lifecycle

@@ -1,12 +1,12 @@
 # Azure Machine Learning Step 4: Deploying & Operating Models
 Learn how to use one of the most powerful tools for working with Azure
 
-![Azure ML 4](ML_4.png)
+![Azure ML 5](ML_5.png)
 
 ## Details
-In this fourth session of the Azure Machine Learning series, we’ll take the next critical step in the ML lifecycle: moving trained models into production and keeping them running reliably. Azure Machine Learning provides robust tools for deploying models as scalable endpoints, managing versions, and monitoring performance in real-world environments.
+In this fifth session of the Azure Machine Learning series, we’ll take the next critical step in the ML lifecycle: moving trained models into production and keeping them running reliably. Azure Machine Learning provides robust tools for deploying models as scalable endpoints, managing versions, and monitoring performance in real-world environments.
 
-This session focuses on the practical side of deployment and operations (MLOps) within Azure ML. You’ll learn how to take a trained and registered model and turn it into a production-ready service, while also understanding how to manage, monitor, and update that service over time. Whether you’re continuing from Step 3 or already familiar with model training, this session will help you bridge the gap between experimentation and real-world impact.
+This session focuses on the practical side of deployment and operations (MLOps) within Azure ML. You’ll learn how to take a trained and registered model and turn it into a production-ready service, while also understanding how to manage, monitor, and update that service over time. Whether you’re continuing from Step 4 or already familiar with model training, this session will help you bridge the gap between experimentation and real-world impact.
 
 You’ll learn:
 - How deployment fits into the machine learning lifecycle
