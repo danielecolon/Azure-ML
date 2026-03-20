@@ -17,6 +17,12 @@ You’ll learn:
 
 This session is designed to give you the confidence to start building real ML workflows with clean, well‑structured data. If you’re ready to move from “What is Azure ML?” to “How do I actually use it with my data?”, this is your next step.
 
+### YouTube
+[Azure Machine Learning Step 2 - ETL & Datasets](https://www.youtube.com/watch?v=YE9SgWjp6-E)
+
+### Slides
+[AzureML_2-Data_n_ETL.pdf](AzureML_2-Data_n_ETL.pdf)
+
 ### Tags
 Machine Learning<br />
 Cloud Computing<br />
