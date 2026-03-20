@@ -15,6 +15,12 @@ What Azure Machine Learning is
 
 This session is meant to give you a solid foundation — not to cover every feature — so you leave with clarity, confidence, and a clear path for continued learning. New to machine learning? See how to make your first step with Azure ML Studio.
 
+### YouTube
+[Azure Machine Learning Step 1: Overview](https://www.youtube.com/watch?v=Xx9EuqwUoRQ&t=1985s)
+
+### Slides
+[AzureML_1-Overview.pdf](AzureML_1-Overview.pdf)
+
 ### Tags
 Machine Learning<br />
 Cloud Computing<br />
