@@ -21,7 +21,7 @@ You’ll learn:
 This session is designed to help you move from “I have prepared data” to “I can train, evaluate, and track models effectively in Azure ML.” If you’re ready to bring your data to life and start building real machine learning models, this is your next step.
 
 ## Tags
-Artificial Intelligence<br />
 Machine Learning<br />
 Cloud Computing<br />
-Microsoft Azure<br />
+Microsoft Azure <br />
+Artificial Intelligence<br />
