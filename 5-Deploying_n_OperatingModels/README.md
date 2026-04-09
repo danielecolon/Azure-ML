@@ -21,7 +21,7 @@ You’ll learn:
 This session is designed to help you move from “I have a trained model” to “I can deploy and operate it in production with confidence.” If you’re ready to deliver real value from your machine learning solutions and ensure they perform reliably at scale, this is your next step.
 
 ## Tags
-Artificial Intelligence<br />
 Machine Learning<br />
 Cloud Computing<br />
-Microsoft Azure<br />
+Microsoft Azure <br />
+Artificial Intelligence<br />
