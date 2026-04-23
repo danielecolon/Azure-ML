@@ -19,8 +19,5 @@ $Tags = @(
 $ResourceGroup = "rg-$Project"
 $Workspace = "ws-$Project"
 
-az group create --name $ResourceGroup --location $Location --tags $Tags -o none
-az group show --name $ResourceGroup --query name -o tsv
-
-az ml workspace create --name $Workspace --resource-group $ResourceGroup --location $Location -o none
-az ml workspace show --name $Workspace --resource-group $ResourceGroup --query name -o tsv
+az group create --name $ResourceGroup --location $Location --tags $Tags --query name -o tsv
+az ml workspace create --name $Workspace --resource-group $ResourceGroup --location $Location --query name -o tsv
