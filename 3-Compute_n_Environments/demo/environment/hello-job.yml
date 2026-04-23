@@ -1,0 +1,8 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+code: ./src
+command: >-
+  python train.py
+environment: azureml:aml-env-demo:1
+display_name: hello-env-demo
+experiment_name: env-demo
+compute: azureml:cluster-demoxxxx

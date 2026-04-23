@@ -1,0 +1,11 @@
+name: aml-env-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - mlflow-skinny
+      - azureml-mlflow
+      - pandas
+      - scikit-learn

@@ -1,0 +1,9 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: aml-env-demo
+version: 1
+description: Demo environment for Azure ML Environments presentation
+image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
+conda_file: conda.yml
+tags:
+  demo: environments
+  series: azure-ml
