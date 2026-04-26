@@ -20,6 +20,9 @@ You’ll learn:
 
 This session is designed to help you move from “I have data ready” to “I can reliably run and scale my ML workloads.” If you’re ready to understand what’s happening behind the scenes and ensure your models run consistently across environments, this is your next step.
 
+### Slides
+[3-Compute_n_Environments.pdf](3-Compute_n_Environments.pdf)
+
 ### Tags
 Machine Learning<br />
 Cloud Computing<br />
